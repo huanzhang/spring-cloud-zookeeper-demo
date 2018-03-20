@@ -1,0 +1,18 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: zuul-gateway
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      config:
+        enabled: true
+
+zuul:
+  ignoredServices: '*'
+  routes:
+    schools:
+      path: /schools/**
+      serviceId: school-service

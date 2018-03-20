@@ -1,0 +1,11 @@
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh
+
+logging:
+  level:
+    org.hzhang: DEBUG

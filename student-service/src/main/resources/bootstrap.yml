@@ -1,0 +1,7 @@
+spring.application.name: student-service
+server.port: 9097
+
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
