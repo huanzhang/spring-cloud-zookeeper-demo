@@ -1,2 +1,2 @@
-# spring-cloud-demo
-Eureka + Feign example
+# spring-cloud-zookeeper-demo
+Service discovery and configuration
